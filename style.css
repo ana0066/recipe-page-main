@@ -50,6 +50,7 @@ main img{
 h1{
     font-family: 'Young Serif', Georgia, serif;
     font-weight: 400;
+    font-size: 2rem;
     color: hsl(24, 5%, 18%);
 }
 
