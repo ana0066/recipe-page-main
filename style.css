@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    width: 100%; 
+    max-width: 740px;
+    margin: 8rem auto;
+    padding: 2.5rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main img{
+    width: 100%;
+    max-height: 650px;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h1{
+    font-family: 'Young Serif', Georgia, serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    margin: 1rem auto 2rem;
+}
+
+h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: hsl(332, 51%, 32%);
+    margin: 3rem 1.5rem 0.5rem;
+}
+
+.preparation-time li::marker{
+    color: hsl(332, 51%, 32%);
+    content: "•";
+    font-size: 1.25rem;
+}
+
+.preparation-time{
+    margin: 0.5rem 1.5rem 3rem;
+}
+
+.preparation-time li{
+    margin: 0rem 1rem;
+    padding-left: 1.5rem;
+}
+
+h4{
+    font-family: 'Young Serif', Georgia, serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: hsl(14, 45%, 36%);
+    margin: 2rem auto 1rem;
+}
+
+.ingredients{
+    margin: 0.5rem 1rem;
+}
+
+.ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+    content: "•";
+    font-size: 1.25rem;
+}
+
+.ingredients li{
+    padding-left: 1.5rem;
+}
+
+.separador{
+    border-top: 1px solid hsl(30, 18%, 87%);
+    margin: 2rem 0 0;
+}
+
+.instructions{
+    margin: 0.5rem 1rem;
+}
+
+.instructions li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.instructions li{
+    padding-left: 1.5rem;
+    margin: 0.5rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem auto;
+}
+
+tr:nth-child(1),
+tr:nth-child(2),
+tr:nth-child(3){
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td{
+    padding: 12px;
+    text-align: left;
+}
+
+td:nth-child(even) {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
